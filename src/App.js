@@ -8,7 +8,7 @@ function App() {
   const bio="I am the best developer"
   const profession="I can make you a very nice website"
 
-  const handleName = () => {
+  const handleName = (fullname) => {
         alert (`The fullname is ${fullname}`)
 }
 
